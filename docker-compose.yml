@@ -1,7 +1,7 @@
 version: "3"
 services:
   db:
-    image: couchbase:3.1.0
+    build: .
     volumes:
       - "~/couchbase/node1:/opt/couchbase/var"
     ports:
